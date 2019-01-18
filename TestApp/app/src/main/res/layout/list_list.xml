@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="New Text"
+        android:id="@+id/Question01"
+        android:textSize="18sp"
+        android:layout_weight="3"/>
+
+    <RadioGroup
+        android:layout_width="200sp"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:background="@color/colorGreen">
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/First"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/Second"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/Third"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/Fourth"/>
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/Fifth"/>
+    </RadioGroup>
+
+</LinearLayout>
